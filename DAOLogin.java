@@ -67,6 +67,7 @@ public class DAOLogin {
             trans = session.beginTransaction();
             session.save(user);
             trans.commit();
+	System.out.println ("hello");
             
         } catch (Exception e) {
             System.out.println(e);
